@@ -79,7 +79,6 @@ ngx_module_t  ngx_http_track_request_module = {
 static ngx_int_t
 ngx_http_track_request_handler(ngx_http_request_t *r)
 {
-    ngx_table_elt_t               *h, *ho;
     ngx_http_request_t            *sr;
     ngx_http_post_subrequest_t    *ps;
     ngx_http_track_request_ctx_t   *ctx;
